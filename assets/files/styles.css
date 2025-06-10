@@ -985,10 +985,26 @@ html, body{
     height: 100%;
 }
 
+.testimo-bg-img{
+    width: 100%;
+    background-color: lightblue;
+    position: relative;
+    /* height: 100%; */
+    
+}
 
-
-
-
+.testimo-bg-img img {
+    width: 100%;    
+    display: block;
+    /* height: 100%; */
+}
+.testimo-overlay-bg-img{
+    /* background-color: rgb(227, 230, 173); */
+    opacity: .3;
+    position: absolute;
+    top: 30%;
+    width: 90%;
+}
 
 
 
