@@ -591,6 +591,8 @@ box-sizing: border-box;
     padding: 40px 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: rgb(222, 56, 84);
 }
 .category-section h2 {
     font-size: 2.5em;
@@ -599,19 +601,22 @@ box-sizing: border-box;
 }
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    background-color: rgb(120, 56, 222);
 }
 .card {
     background: #fff;
+    width: 300px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
     text-align: center;
     padding: 15px;
+    background-color: rgb(222, 183, 56);
 }
 .card img {
     width: 100%;
