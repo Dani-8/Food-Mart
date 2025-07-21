@@ -1632,7 +1632,8 @@ html, body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
-.footer-col ul li:first-child{
+
+.footer-li-heading{
     font-size: 18px;
     font-weight: 700;
 
